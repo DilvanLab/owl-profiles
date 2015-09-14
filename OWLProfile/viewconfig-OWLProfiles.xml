@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <VSNode splits="1.0">
+        <CNode>
+            <Component label="OWL Profiles">
+                <Property id="pluginId" value="br.usp.icmc.java.owlprofile.OWLCheckProfilesView"/>
+            </Component>
+        </CNode>
+    </VSNode>
+</layout>

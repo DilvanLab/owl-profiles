@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+	<extension id="OWLCheckProfilesView"
+              point="org.protege.editor.core.application.ViewComponent">
+      <label value="OWL Profiles"/>
+      <class value="br.usp.icmc.java.CheckProfiles"/>
+      <category value="@org.protege.ontologycategory"/>
+   </extension>
+   <extension id="OWLCheckProfilesTab"
+              point="org.protege.editor.core.application.WorkspaceTab">
+      <label value="OWL Profiles"/>
+      <class value="org.protege.editor.owl.ui.OWLWorkspaceViewsTab"/>
+      <index value="X"/>
+      <editorKitId value="OWLEditorKit"/>
+      <defaultViewConfigFileName value="viewconfig-OWLProfiles.xml"/>
+   </extension>
+</plugin>

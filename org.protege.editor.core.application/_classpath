@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="org.protege.editor.core.application.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jxp.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mdock.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/swing-worker.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
